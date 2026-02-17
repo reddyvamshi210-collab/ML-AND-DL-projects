@@ -1,0 +1,3 @@
+📧 Spam Mail Detection using Logistic Regression
+
+This project is a simple machine learning application that detects whether a message is Spam or Ham (Not Spam) using Logistic Regression. The dataset contains labeled messages, where spam is converted to 1 and ham to 0. The text data is transformed into numerical features using TF-IDF Vectorizer, then split into training and testing data. The Logistic Regression model is trained on the training data and evaluated on the test data, achieving around 95% accuracy depending on the dataset. This project demonstrates basic text preprocessing, feature extraction, model training, and classification using Python and Scikit-learn.
